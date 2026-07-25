@@ -1,0 +1,5 @@
+numpy>=1.26,<2
+torch>=2.4,<3
+FlagEmbedding
+scikit-learn
+matplotlib

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lore-di-rag"
+version = "0.1.0"
+description = "Pipeline RAG locale minimale con BGE-M3 e indice NumPy"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = [
+    "FlagEmbedding",
+    "numpy>=1.26,<2",
+    "pypdf>=5,<7",
+    "torch>=2.4,<3",
+]
+
+[project.optional-dependencies]
+viz = [
+    "matplotlib",
+    "scikit-learn",
+]
+
+[project.scripts]
+lore-di-rag = "lore_di_rag.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

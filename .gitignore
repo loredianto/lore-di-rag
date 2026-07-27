@@ -1,1 +1,13 @@
 .venv/
+build/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+output/
+data/input/*
+data/indexes/*
+
+!data/input/.gitkeep
+!data/indexes/default/
+!data/indexes/default/.gitkeep

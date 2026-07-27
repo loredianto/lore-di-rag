@@ -3,3 +3,4 @@ torch>=2.4,<3
 FlagEmbedding
 scikit-learn
 matplotlib
+pypdf>=5,<7

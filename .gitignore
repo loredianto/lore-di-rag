@@ -7,7 +7,8 @@ __pycache__/
 output/
 data/input/*
 data/indexes/*
-
+data/indexes/default/*
 !data/input/.gitkeep
 !data/indexes/default/
 !data/indexes/default/.gitkeep
+AGENTS.md
